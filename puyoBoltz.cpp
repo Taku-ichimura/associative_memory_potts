@@ -11,8 +11,6 @@ random_device rnd;//for nondeterministic random_num
 //const int seed=rnd();
 const int seed = 11;
 mt19937 mt(seed);
-//update
-//update
 
 //parameters
 const int X=6;//width
@@ -70,7 +68,7 @@ public:
   void paramwrite();
   void readparam();
 };
-//update
+
 
 void BM::ini(){
   double tmp;
